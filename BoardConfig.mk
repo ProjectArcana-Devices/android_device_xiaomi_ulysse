@@ -35,5 +35,8 @@ BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/biometrics/sepolicy
 
+# Bootanimation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/ulysse/BoardConfigVendor.mk
