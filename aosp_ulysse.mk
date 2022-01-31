@@ -17,6 +17,8 @@ $(call inherit-product, device/xiaomi/ulysse/device.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
+# Inherit some props from Arcana
+ARCANA_MAINTAINER := LaLeeroy
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
