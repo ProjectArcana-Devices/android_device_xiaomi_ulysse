@@ -14,6 +14,7 @@ $(call inherit-product, vendor/aosp/config/common.mk)
 ARCANA_MAINTAINER := LaLeeroy
 ARCANA_OFFICIAL := true
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit from ulysse device
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
