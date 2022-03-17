@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ulysse.mk
+    $(LOCAL_DIR)/aosp_ulysse.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ulysse-user \
-    lineage_ulysse-userdebug \
-    lineage_ulysse-eng
+    aosp_ulysse-user \
+    aosp_ulysse-userdebug \
+    aosp_ulysse-eng
