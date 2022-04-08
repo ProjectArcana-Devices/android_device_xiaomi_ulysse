@@ -11,6 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 
 # Inherit some common ArcaneOS stuff.
 $(call inherit-product, vendor/aosp/common.mk)
+ARCANA_MAINTAINER := LaLeeroy
+ARCANA_OFFICIAL := true
+TARGET_SUPPORTS_BLUR := false
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_SUPPORTS_NOW_PLAYING := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+USE_PIXEL_CHARGER_IMAGES := true
+COPY_APN_SYSTEM := true
+
+
 # Inherit from ulysse device
 $(call inherit-product, device/xiaomi/ulysse/device.mk)
 
